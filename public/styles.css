@@ -1,0 +1,22 @@
+* {
+
+  background-color: salmon;
+  text-align: center;
+  font-family: sans-serif;
+}
+
+table, td{
+  border-collapse: collapse;
+  border: 1px solid black;
+  margin: 10px auto;
+  text-align: left;
+}
+
+td{
+  background-color: yellow;
+}
+
+input{
+  margin: 5px 0;
+  background-color:white;
+}

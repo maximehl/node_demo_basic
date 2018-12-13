@@ -1,0 +1,33 @@
+<html>
+
+<head>
+
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+<h1>Fabulous Cats</h1>
+
+<a href="/addCat">Add a Cat</a><br>
+<a href="/deleteAll">Make everyone freak out Ψ(￣∀￣)Ψ</a>
+<br>
+<br>
+<h3>Your cats:</h3>
+
+<table>
+  <% for(var i = 0; i<cats.length;i++) { %>
+    <tr>
+      <td>Name: <%= cats[i].name %></td>
+      <td>Breed: <%= cats[i].breed %></td>
+      <td>Age: <%= cats[i].age %></td>
+    </tr>
+  <% } %>
+
+</table>
+
+
+</body>
+
+
+</html>
